@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  firestore:
+    image: perrystallings/cloud-firestore-emulator
+    environment:
+      - FIRESTORE_PROJECT_ID=project-test
